@@ -1,0 +1,29 @@
+{
+    "name": "wang-tech-commits/dcat-ant-theme",
+    "description": "基础的ant-theme",
+    "license": "MIT",
+    "homepage": "https://github.com/wang-tech-commits/dcat-ant-theme",
+    "authors": [
+        {
+            "name": "Mr.wang",
+            "email": "15124532157@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.3",
+        "laravel/framework": "*",
+        "dcat/laravel-admin": "2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "MrwangTc\\AntTheme\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MrwangTc\\AntTheme\\ServiceProvider"
+            ]
+        }
+    }
+}
